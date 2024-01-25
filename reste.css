@@ -1,0 +1,79 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles (bullets/numbers) */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default padding */
+html {
+  padding: 0;
+}
+
+/* Remove border and padding on images */
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove other default styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove outline on active elements */
+a:active,
+a:focus,
+button:active,
+button:focus {
+  outline: 0;
+}
+
+/* Remove default button styles */
+button {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Add custom styles as needed */
